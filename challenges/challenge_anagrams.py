@@ -32,7 +32,9 @@ def sort(word):
     sorted_list = merge_sort(list_word)
     return "".join(sorted_list)
 
+
 def is_anagram(first_string, second_string):
+
     sorted_first = sort(first_string)
     sorted_second = sort(second_string)
 

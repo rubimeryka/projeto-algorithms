@@ -14,4 +14,3 @@ def test_encrypt_message():
     assert encrypt_message("OpenAI", 5) == "AI_neO"
     assert encrypt_message("", 0) == ""
     assert encrypt_message("abc", 1) == "abc"
-    
